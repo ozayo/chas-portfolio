@@ -1,6 +1,6 @@
 const Cta = () => {
   return (
-    <section class="bg-gradient-to-br from-indigo-600 via-purple-600 to-fuchsia-700 mx-4 my-11 rounded-2xl">
+    <section class="bg-gradient-to-br from-indigo-600 via-purple-600 to-fuchsia-700 my-11 rounded-2xl">
       <div class="py-10 px-4 mx-auto max-w-screen-xl">
         <div class="mx-auto max-w-screen-sm text-center">
           {/* <div class="flex flex-col items-center mb-4">

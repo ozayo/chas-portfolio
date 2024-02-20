@@ -5,7 +5,7 @@ const MainHero = () => {
     <>
       <div className="items-center gap-5 my-14 text-center">
         <div className="">
-          <div className="bg-violet-400 pointer-events-none absolute aspect-square w-96 rounded-full opacity-20 blur-3xl [transform:translate3d(0,0,0)]"></div>
+          <div className="bg-violet-400 pointer-events-none absolute aspect-square w-60 rounded-full opacity-20 blur-3xl [transform:translate3d(0,0,0)]"></div>
           <Badge color="text-slate-700 bg-purple-200">
             - My Chas Academy Portfollio -
           </Badge>
