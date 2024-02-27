@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import "@/styles/globals.css";
 import { Inter } from "next/font/google";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 function MyApp({ Component, pageProps }) {
@@ -34,7 +35,9 @@ function MyApp({ Component, pageProps }) {
 export default function App({ Component, pageProps }) {
   return (
     <ThemeProvider>
-      <main className={`container max-w-5xl mx-auto ${inter.className}`}>
+      <main
+        className={`container max-w-5xl px-3 md:px-0 mx-auto ${inter.className}`}
+      >
         <Header />
 
         <MyApp Component={Component} pageProps={pageProps} />

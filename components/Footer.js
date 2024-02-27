@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import logoWhite from "@/public/images/oo-logo-white.svg";
+import logo from "@/public/images/oo-logo.svg";
 import {
   FaSquareGithub,
   FaSquareXTwitter,
@@ -11,21 +13,21 @@ import {
 const Footer = () => {
   return (
     <>
-      <footer className="py-8 text-center">
+      <footer className="py-8 text-center mt-14">
         <div className="flex justify-center">
           <Link href="/">
             {/* <img className="logo" src={logo} width="60px" alt="Ozay Logo" /> */}
             <Image
-              src="/images/oo-logo-white.svg" // Route of the image file
+              src={logoWhite} // Route of the image file
               className="hidden dark:block"
-              height={30} // Desired size with correct aspect ratio
+              height={17} // Desired size with correct aspect ratio
               width={30} // Desired size with correct aspect ratio
               alt="Ozay Logo"
             />
             <Image
-              src="/images/oo-logo.svg" // Route of the image file
+              src={logo} // Route of the image file
               className="block dark:hidden"
-              height={30} // Desired size with correct aspect ratio
+              height={17} // Desired size with correct aspect ratio
               width={30} // Desired size with correct aspect ratio
               alt="Ozay Logo"
             />

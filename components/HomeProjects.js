@@ -1,34 +1,10 @@
-import ProjectCard from "./ProjectCard";
-import Image from "next/image";
-
-const projects = [
-  {
-    image: "./images/projects/pr01.png",
-    name: "React Portfolio Site",
-    techs: ["React", "NextJS", "TailwindCSS"],
-    description: "React Portfolio Site with Theme Switching",
-    gitlink: "https://github.com/ozayo/chas-portfolio",
-    livelink: "https://chas-portfolio.vercel.app/",
-  },
-  {
-    image: "./images/projects/pr06.png",
-    name: "React Components Library",
-    techs: ["React", "Vite", "Tailwind", "React Router"],
-    description: "Created a component library with React.",
-    gitlink: "https://github.com/ozayo/React-Components-Library",
-    livelink: "https://components-library-nine.vercel.app/",
-  },
-  {
-    image: "./images/projects/pr04.png",
-    name: "React Clock",
-    techs: ["React", "Vite"],
-    description: "Buil cities clock & timer with React.",
-    gitlink: "https://github.com/ozayo/chas_react-clock",
-    livelink: "https://chas-react-clock-pi.vercel.app/",
-  },
-];
+import React from "react";
+import projectData from "@/pages/api/projectdata";
+import NewProjectCard from "./ProjectCard";
 
 const HomeProjects = () => {
+  const mainProjects = projectData.filter((project) => project.mainpage);
+
   return (
     <div className="py-14">
       <div className="text-center mb-14">
@@ -45,8 +21,8 @@ const HomeProjects = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6">
-        {projects.map((project) => (
-          <ProjectCard key={project.name} {...project} />
+        {mainProjects.map((project) => (
+          <NewProjectCard key={project.id} project={project} />
         ))}
       </div>
     </div>
