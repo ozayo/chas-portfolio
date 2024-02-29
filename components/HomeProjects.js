@@ -9,7 +9,7 @@ const HomeProjects = () => {
     <div className="py-14">
       <div className="text-center mb-14">
         <h3 className="text-3xl font-extrabold mb-3">Latest Projects</h3>
-        <p>
+        <p className="text-sm md:text-lg">
           You can see some of my recent projects below. To see all of my
           projects, please visit my{" "}
           <a

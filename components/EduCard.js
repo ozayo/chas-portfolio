@@ -5,7 +5,7 @@ const EduCard = ({ edu }) => {
   return (
     <article className="pt-8 border-b-2 border-dark-content pb-5 dark:border-light-content border-opacity-20 dark:border-opacity-20">
       <div className="flex justify-between items-center">
-        <h1 className="text-content md:text-lg lg:text-xl">{edu.School}</h1>
+        <h3 className="text-content text-lg">{edu.School}</h3>
         <div className="bg-violet-100 dark:bg-violet-400 text-xs inline-block rounded-3xl px-3 py-1 min-w-fit text-black dark:text-white">
           {edu.Type}
         </div>

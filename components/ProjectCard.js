@@ -25,7 +25,7 @@ const ProjectCard = ({ project }) => {
           {project.techs.map((tech) => (
             <span
               key={tech}
-              className="mr-2 bg-violet-500 text-white px-2 rounded-md
+              className="mr-1 mb-1 bg-violet-500 text-white px-2 rounded-md
               text-[11px] font-light"
             >
               {tech}

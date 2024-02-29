@@ -19,17 +19,17 @@ function about() {
             I am a student at Chas Academy, studying to become a better frontend
             developer.
           </h2>
-          <p className="mb-3 font-light">
+          <p className="mb-3 text-sm md:text-base font-light">
             I have a passion for designing and developing websites and strive to
             create visually appealing and user-friendly experiences
           </p>
-          <p className="mb-3 font-light">
+          <p className="mb-3 text-sm md:text-base  font-light">
             I am always eager to learn and explore new technologies and modern
             frameworks to stay up-to-date with the latest industry trends. In my
             free time, I enjoy playing guitar, nature walks, mountain biking,
             and photography.
           </p>
-          <p className="mb-3 font-light">
+          <p className="mb-3 text-sm md:text-base  font-light">
             I invite you to take a look at my portfolio and past projects to see
             the work I have done, and if you have any questions or would like to
             work together, please feel free to contact me.

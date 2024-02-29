@@ -12,7 +12,7 @@ const ProjectsPage = () => {
       </Head>
 
       <h1 className="mt-6">My Projects</h1>
-      <p>
+      <p className="mb-3 text-sm md:text-base  font-light">
         This portfolio includes only my projects at Chas Academy and some side
         projects.
       </p>

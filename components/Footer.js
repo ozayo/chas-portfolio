@@ -60,19 +60,19 @@ const Footer = () => {
           </Link>
         </div>
         <div className="flex gap-3 justify-center">
-          <Link href="#" target="_blank" alt="Github">
+          <Link href="#" alt="Github">
             <FaSquareGithub size="1.3em" />
           </Link>
-          <Link href="#" target="_blank">
+          <Link href="#">
             <FaSquareXTwitter size="1.3em" />
           </Link>
-          <Link href="#" target="_blank">
+          <Link href="#">
             <FaLinkedin size="1.3em" />
           </Link>
-          <Link href="#" target="_blank">
+          <Link href="#">
             <FaSquareInstagram size="1.3em" />
           </Link>
-          <Link href="#" target="_blank">
+          <Link href="#">
             <FaFigma size="1.3em" />
           </Link>
         </div>

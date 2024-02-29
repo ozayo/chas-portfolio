@@ -21,9 +21,9 @@ function contact() {
           </span>{" "}
           Together
         </h1>
-        <p className="mb-3 font-light">
-          You can contact me using the form on the side or the links below.
-          If you have any questions, feel free to ask.
+        <p className="mb-3 text-sm md:text-base font-light">
+          You can contact me using the form on the side or the links below. If
+          you have any questions, feel free to ask.
         </p>
         <div className="flex gap-3 justify-center md:justify-start mt-8">
           <Link
